@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">BODDU MANIDEEP</div>
+                <ul class="nav-links">
+                    <li><a href="Manideep's Resume.pdf" download>My Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+    </header>
+
+    <div class="profile">
+        <img src="profile.jpg" alt="Profile Picture">
+        <div class="profile-info">
+            <h2 class="profile-name">BODDU MANIDEEP</h2>
+            <p class="intro">
+                I'm <span>Boddu Manideep</span>, a proactive Vardhaman College of Engineering student passionate about user-friendly software. Skilled in <span>Python, Django, and more</span>. I've developed applications like <span> To-Do List, Recipe Book </span> and a <span>Personal Banking site </span>  . Aiming for innovation, I'm also a music-loving solo traveler.
+            </p>
+        </div>
+    </div>
+
+
+    <section id="projects">
+        <h1 class="title">Personal projects</h1>
+        <div class="projects-container">
+
+          <div class="project-card" onclick="window.location.href='projects/project5.html'">
+            <h3>Recipe app</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facilis corrupti, suscipit adipisci cumque quaerat porro amet recusandae temporibus molestiae beatae provident, nam accusamus reprehenderit architecto maiores repudiandae, ullam sequi facere est culpa. Ea nam laudantium mollitia? Recusandae, laborum. Vero commodi, odit ducimus nulla facilis necessitatibus consequuntur molestiae. Vitae, velit!</p>
+          </div>
+            <div class="project-card" onclick="window.location.href='projects/project1.html'">
+              <h3>TO DO application</h3>
+              <p>This To-Do application enables user registration or login. Users can manage tasks—adding, editing, and marking as done. Completed tasks appear on the right. An "undo" option corrects errors. Simple, secure, and efficient, it streamlines task management, enhancing productivity and organization.</p>
+            </div>
+
+            <div class="project-card" onclick="window.location.href='projects/project2.html'">
+              <h3>Bank Website</h3>
+              <p>The Personal Banking Web Application offers users a
+                efficient platform for managing their financial activities. Upon successful login, users can access their transaction
+                history, review deposits and withdrawals, initiate fund
+                transfers, request loans, and perform various account- related actions</p>
+            </div>
+
+            <div class="project-card" onclick="window.location.href='projects/project3.html'">
+              <h3>Dice roll Game</h3>
+              <p>This web application, developed using HTML, CSS, and JavaScript, introduces a dice-based game for two players. Players roll the dice to increment their score, with the option to roll again or update their current score. Rolling a one resets the score. The objective is to reach 100 points first. The project not only showcases web development skills but also offers an interactive and competitive gaming experience, where strategy and chance intertwine for an engaging outcome.</p>
+            </div>
+
+            <div class="project-card" onclick="window.location.href='projects/project4.html'">
+                <h3>Smart shoe </h3>
+                <p>The Smart Shoes project pioneers advanced wearable tech, fusing inventive sensors and energy harvesting for groundbreaking footwear. These shoes boast temperature and pulse sensors for continuous health tracking, while piezoelectric materials in the sole generate power as users walk. Outcomes spotlight successful integration and data collection, offering insights into health and activity. The project presents a leap in wearable technology, with potential to improve well-being and drive sustainable solutions.</p>
+              </div>
+
+              
+
+              <div class="project-card" onclick="window.location.href='projects/project6.html'">
+                <h3>Guess a number</h3>
+                <p>This project is a web application developed using HTML, CSS, and JavaScript. In this application, the user is required to input a number between 1 and 20. If the guess is correct, the application displays "Right Answer." In case the guess is incorrect, it offers assistance by providing feedback such as "Too Long" or "Too Short."</p>
+              </div>
+            <!-- Add more project cards as needed -->
+          </div>
+        <!-- Repeat for other projects -->
+    </section>
+
+
+
+    <section id="contact">
+      <div class="acadamics">
+        <div class="header">
+          <h1>Academics</h1>
+        </div>
+        <div class="academic-list">
+          <h2 class="academic-title">Education</h2>
+         
+          <div class="academic-item">
+            <div class="degree">Bachelors in Electronics and Communication </div>
+            <div class="university">Vardhaman college of Engineering</div>
+            <div class="year">Graduated in 2024</div>
+          </div>
+      
+          <h2 class="academic-title">Certifications</h2>
+          <div class="academic-item">
+            <div class="degree">Machine Learning and Deep Learning</div>
+            <div class="university">Skill Dzire</div>
+            <div class="year">Completed in 2022</div>
+          </div>
+          <div class="academic-item">
+            <div class="degree"> Frontend Web Development </div>
+            <div class="university">META</div>
+            <div class="year">Completed in 2022</div>
+          </div>
+          <div class="academic-item">
+            <div class="degree">Java certificate </div>
+            <div class="university">Coding Ninjas</div>
+            <div class="year">Completed in 2021</div>
+          </div>
+        </div>
+        
+      </div>
+
+        <!-- Contact section content goes here -->
+        <div class="containercontact">
+          <h3>Contact me</h3>
+          <form action="#">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">India</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+       
+    </section>
+
+
+</body>
+</html>
